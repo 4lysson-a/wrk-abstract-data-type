@@ -1,21 +1,38 @@
 # Cilindro 
-Trabalho usando tipo abstrato de dados em Estruturas de dados
 
+Trabalho usando TAD em Estruturas de dados
 
-## Como rodar o programa ??
+## Como compilar os programas ?
 
-### Compilando a implementação das funções
+### Compilando via script
+
+Dentro de cada arquivo existe um script que executa automaticamente 
+cada programa, e os deleta assim que a execução termina. 
+Basta abrir o terminal e digitar
+
+`./start.sh`
+
+#### Erro de acesso
+
+Caso tenha algum problema para executar o script no linux
+De permissão de execução para o códigio
+
+No terminal digite 
+
+`chmod +x ./start.sh`
+
+### Compilando manualmente a implementação das funções
 
 Abra o terminal e digite 
 
-`gcc -c cilindro.c -o cilindro.o`
+`gcc -c {implementação_das_funções}.c -o {implementação_das_funções}.o`
 
 Esse comando compila a implementação das funções do tad 
 para serem usadas na main.c
 
 ### Executando a main
 
-`gcc main.c cilindro.o -lm -o main`
+`gcc main.c {implementação_das_funções}.o -lm -o main`
 
 Esse comando compila o código principal
 Inlcuindo a implementação das funções
