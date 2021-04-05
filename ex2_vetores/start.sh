@@ -1,11 +1,11 @@
-declare -l NAME="vet"
-
+declare -l NAME="vet" || NAME="vet"
 gcc -c $NAME.c -o $NAME.o 
 gcc main.c $NAME.o -lm -o main
-echo ""
+echo
 
+clear || cls
 ./main
 
-echo ""
+echo
 rm $NAME.o
 rm main
