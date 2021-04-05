@@ -1,6 +1,6 @@
 # Tipo abstrato de dado
-#### Alysson A. 
 
+Alysson A. 
 Trabalho usando TAD em Estruturas de dados
 
 ## Como compilar os programas ?
