@@ -1,6 +1,11 @@
 #include "./lib/tad.h"
 
-struct vetor
-{
-  int *vet;
-};
+// int *vet[0];
+
+// Vet *criar_vet(int index, int *vet)
+// {
+//   if (*vet != NULL)
+//   {
+//     return *vet[index];
+//   }
+// }
