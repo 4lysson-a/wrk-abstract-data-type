@@ -1,6 +1,5 @@
 # Tipo abstrato de dado
 
-Alysson A. 
 Trabalho usando TAD em Estruturas de dados
 
 ## Como compilar os programas ?
@@ -50,3 +49,10 @@ no link abaixo
 [link do site GCC](https://sourceforge.net/projects/mingw/files/)
 
 Apos a instalação basta executar os comandos `gcc` como no linux
+
+
+
+
+ 
+ 
+Alysson A.
