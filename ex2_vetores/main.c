@@ -1,5 +1,5 @@
-// Desenvolva e implemente um TAD que represente um 
-// conjunto de inteiros. Para isso, utilize um vetor 
+// Desenvolva e implemente um TAD que represente um
+// conjunto de inteiros. Para isso, utilize um vetor
 // de inteiros. O TAD deverá conter as seguintes funções
 
 // Criar um conjunto vazio.
@@ -17,5 +17,7 @@
 
 int main()
 {
+  printf("hello");
+  // criar_vet(10, vet);
   return 0;
 }
