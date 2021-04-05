@@ -41,3 +41,12 @@ Esse comando compila o código principal
 Inlcuindo a implementação das funções
 
 O comando `-lm` é importante para evitar um erro com a função `Math.h`
+
+### No Windows 
+
+No windows é necessário ter instalado o `MinGW` você pode baixa-lo 
+no link abaixo
+
+[link do site GCC](https://sourceforge.net/projects/mingw/files/)
+
+Apos a instalação basta executar os comandos `gcc` como no linux
