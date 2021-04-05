@@ -5,7 +5,7 @@ Trabalho usando TAD em Estruturas de dados
 
 ## Como compilar os programas ?
 
-### No linux
+### - No linux
 
 #### Compilando via script
 
@@ -42,7 +42,7 @@ Inlcuindo a implementação das funções
 
 O comando `-lm` é importante para evitar um erro com a função `Math.h`
 
-### No Windows 
+### - No Windows 
 
 No windows é necessário ter instalado o `MinGW` você pode baixa-lo 
 no link abaixo
