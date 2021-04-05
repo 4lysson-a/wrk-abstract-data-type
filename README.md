@@ -5,7 +5,9 @@ Trabalho usando TAD em Estruturas de dados
 
 ## Como compilar os programas ?
 
-### Compilando via script
+### No linux
+
+#### Compilando via script
 
 Dentro de cada arquivo existe um script que executa automaticamente 
 cada programa, e os deleta assim que a execução termina. 
@@ -13,7 +15,7 @@ Basta abrir o terminal e digitar
 
 `./start.sh`
 
-#### Erro de acesso
+##### Erro de acesso
 
 Caso tenha algum problema para executar o script no linux
 De permissão de execução para o códigio
@@ -22,7 +24,7 @@ No terminal digite
 
 `chmod +x ./start.sh`
 
-### Compilando manualmente a implementação das funções
+#### Compilando manualmente a implementação das funções
 
 Abra o terminal e digite 
 
@@ -31,7 +33,7 @@ Abra o terminal e digite
 Esse comando compila a implementação das funções do tad 
 para serem usadas na main.c
 
-### Executando a main
+#### Executando a main
 
 `gcc main.c {implementação_das_funções}.o -lm -o main`
 
