@@ -1,12 +1,12 @@
-declare -l NAME="cilindro"
+clear || cls
+
+declare -l NAME="cilindro" || NAME="cilindro"
 
 gcc -c $NAME.c -o $NAME.o 
-echo ""
 gcc main.c $NAME.o -lm -o main
-echo ""
+echo
 
 ./main
-
-echo ""
+echo
 rm $NAME.o
 rm main

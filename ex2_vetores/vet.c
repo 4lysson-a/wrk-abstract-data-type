@@ -1,11 +1,26 @@
 #include "./lib/tad.h"
 
-// int *vet[0];
+typedef struct vetor Vet;
 
-// Vet *criar_vet(int index, int *vet)
+struct vetor
+{
+	int vet;
+	int index;
+};
+
+// Vet *criar_vet(int *vet, int index)
 // {
-//   if (*vet != NULL)
-//   {
-//     return *vet[index];
-//   }
+// 	int vetor[index];
+// 	vet = vetor;
 // }
+
+Vet *inserir_vet(int *vet, int index){
+	Vet *v = (Vet *)malloc(sizeof(Vet));
+	
+	v -> index = index;
+	v -> vet = *vet;
+	
+	printf("Quantos elementos deseja inserir ?\n| ");
+	scanf("%d", &index);
+
+}

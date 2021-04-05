@@ -2,13 +2,11 @@
 #include <locale.h>
 #include <stdlib.h>
 
-typedef struct vetor Vet;
-
-void criar_vet();
+void criar_vet(int *vet, int index);
 
 void remover_vet();
 
-void inserir_vet();
+void *inserir_vet(int *vet, int index);
 
 void unir_vet();
 

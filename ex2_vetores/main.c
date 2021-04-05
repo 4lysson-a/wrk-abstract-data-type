@@ -17,7 +17,9 @@
 
 int main()
 {
-  printf("hello");
-  // criar_vet(10, vet);
+	int *vet;
+	int num[10];
+	criar_vet(vet,10);
+	inserir_vet(vet, num);
   return 0;
 }
