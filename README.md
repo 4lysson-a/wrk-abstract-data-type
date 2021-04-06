@@ -21,7 +21,7 @@ De permissão de execução para o códigio
 
 No terminal digite 
 
-`chmod +x ./start.sh`
+`sudo chmod +x ./start.sh`
 
 #### Compilando manualmente a implementação das funções
 
