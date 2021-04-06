@@ -50,8 +50,7 @@ no link abaixo
 
 Apos a instalação basta executar os comandos `gcc` como no linux
 
-
-
+Caso esteja no windows 10, é importante que quando for executar usar o `PowerShell` pois possúi mais funções do que o `cmd` padrão
 
  
  
