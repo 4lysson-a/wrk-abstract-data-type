@@ -9,7 +9,6 @@ struct cilindro
 };
 
 // Função que define altura, raio e volume
-
 Cilindro *def(float h, float r, float v)
 {
   Cilindro *c = (Cilindro *)malloc(sizeof(Cilindro));
@@ -23,7 +22,6 @@ Cilindro *def(float h, float r, float v)
 }
 
 //Funções para o cálculo de fato
-
 float volume(Cilindro *ch, Cilindro *cr)
 {
   float h = (ch->h);
@@ -64,7 +62,6 @@ float raio(Cilindro *ch, Cilindro *cv)
 }
 
 // Funções para definir as propriedades individualmente
-
 Cilindro *def_h(float h)
 {
   Cilindro *c_h = (Cilindro *)malloc(sizeof(Cilindro));

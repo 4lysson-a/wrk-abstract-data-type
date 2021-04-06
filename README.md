@@ -14,7 +14,7 @@ Basta abrir o terminal e digitar
 
 `./start.sh`
 
-##### Erro de acesso
+##### Acesso negado ?
 
 Caso tenha algum problema para executar o script no linux
 De permissão de execução para o códigio
