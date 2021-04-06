@@ -27,6 +27,12 @@ Cilindro *def(float h, float r, float v)
 float volume(Cilindro *ch, Cilindro *cr)
 {
   float h = (ch->h);
+
+  if(cr == NULL){
+    float r = (ch -> r);
+    return (PI * (r * r) * h);
+  }
+  
   float r = (cr->r);
   return (PI * (r * r) * h);
 }
@@ -34,6 +40,12 @@ float volume(Cilindro *ch, Cilindro *cr)
 float altura(Cilindro *cr, Cilindro *cv)
 {
   float r = (cr->r);
+
+  if(cv == NULL){
+    float v = (cr -> v);
+    return ((v) / (PI * (r * r)));
+  }
+
   float v = (cv->v);
   return ((v) / (PI * (r * r)));
 }
@@ -41,6 +53,12 @@ float altura(Cilindro *cr, Cilindro *cv)
 float raio(Cilindro *ch, Cilindro *cv)
 {
   float h = (ch->h);
+
+  if(cv == NULL){
+    float v = (ch->v);
+    return (((sqrt(v)) / (PI * h)));
+  }
+
   float v = (cv->v);
   return (((sqrt(v)) / (PI * h)));
 }

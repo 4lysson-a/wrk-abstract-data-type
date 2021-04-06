@@ -32,11 +32,10 @@ int main()
 	printf("| Raio: %.3f\n", raio(ch, cv));
 	
 	printf("\nDefinição geral:\n");
-	printf("| Volume: %.3f\n", volume(cg, cg));
-	printf("| Altura: %.3f\n", altura(cg, cg));
-	printf("| Raio: %.3f\n", raio(cg, cg));
+	printf("| Volume: %.3f\n", volume(cg, 0));
+	printf("| Altura: %.3f\n", altura(cg, 0));
+	printf("| Raio: %.3f\n", raio(cg, 0));
 	
-
 
 	return 0;
 }
