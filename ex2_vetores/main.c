@@ -17,9 +17,11 @@
 
 int main()
 {
-	int *vet;
-	int num[10];
-	criar_vet(vet,10);
-	inserir_vet(vet, num);
+	LC_ALL,"Portuguese";
+
+	Vet *vetor1;
+
+	cria_vet(vetor1);
+
   return 0;
 }
