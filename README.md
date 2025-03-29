@@ -1,57 +1,92 @@
-# Tipo abstrato de dado
+# 📚 Tipo Abstrato de Dado (TAD) em Estruturas de Dados
 
-Trabalho usando TAD em Estruturas de dados
+## 🧠 O que é um TAD (Tipo Abstrato de Dado)?
 
-## Como compilar os programas ?
+Um **Tipo Abstrato de Dado (TAD)** é um modelo matemático que define:
+- **Dados**: A estrutura de armazenamento da informação
+- **Operações**: As ações que podem ser realizadas com esses dados
+- **Comportamento**: Como essas operações interagem com os dados
 
-### linux
+💡 **Principais características**:
+- **Abstração**: Esconde os detalhes de implementação
+- **Encapsulamento**: Separa interface (o QUE faz) de implementação (COMO faz)
+- **Reutilização**: Pode ser usado em diferentes contextos
 
-#### Compilando via script
+### Exemplos comuns de TADs:
+- 🧺 Pilhas (LIFO - Last In First Out)
+- 🎯 Filas (FIFO - First In First Out)
+- 🌳 Árvores Binárias
+- 📚 Listas Ligadas
 
-Dentro de cada arquivo existe um script que executa automaticamente 
-cada programa, e os deleta assim que a execução termina. 
-Basta abrir o terminal e digitar
+✨ **Por que usar TAD?**
+1. Organização melhor do código
+2. Facilidade de manutenção
+3. Redução de erros
+4. Reutilização de código
 
-`./start.sh`
+---
 
-##### Acesso negado ?
+## 🛠️ Como compilar os programas?
 
-Caso tenha algum problema para executar o script no linux
-De permissão de execução para o códigio
+Siga os passos com base no seu sistema operacional
 
-No terminal digite 
+### 🐧 Linux
 
-`sudo chmod +x ./start.sh`
+#### 🔄 Compilando via script automatizado
 
-#### Compilando manualmente a implementação das funções
+Cada arquivo possui um script `start.sh` que:
+- Compila automaticamente cada programa 🚀
+- Deleta os executáveis após a execução 🗑️
 
-Abra o terminal e digite 
+**Como usar:**  
+> Abra o terminal e execute:
 
-`gcc -c {implementação_das_funções}.c -o {implementação_das_funções}.o`
+```bash
+./start.sh
+```
 
-Esse comando compila a implementação das funções do tad 
-para serem usadas na main.c
+#### 🔒 Problema com permissão?
 
-#### Executando a main
+```bash
+sudo chmod +x ./start.sh
+```
 
-`gcc main.c {implementação_das_funções}.o -lm -o main`
+#### 🖥️ Compilação manual
 
-Esse comando compila o código principal
-Inlcuindo a implementação das funções
+1. Primeiro compile a implementação:
+   ```bash
+   gcc -c {arquivo_funcoes}.c -o {arquivo_funcoes}.o
+   ```
 
-O comando `-lm` é importante para evitar um erro com a função `Math.h`
+3. Depois compile o programa principal:
+   ```bash
+   gcc main.c {arquivo_funcoes}.o -lm -o main
+   ```
+   > ✨ Dica: O parâmetro -lm é essencial para funções matemáticas da math.h!
 
-### Windows 
+5. Execute
+   ```bash
+   ./main
+   ```
 
-No windows é necessário ter instalado o `MinGW` você pode baixa-lo 
-no link abaixo
+### 🪟 Windows
 
-[link do site GCC](https://sourceforge.net/projects/mingw/files/)
+#### 📥 Pré-requisitos
 
-Apos a instalação basta executar os comandos `gcc` como no linux
+Instale o MinGW (compilador GCC para Windows):
+> 🔗 [Download MinGW](https://sourceforge.net/projects/mingw/files/)
 
-Caso esteja no windows 10, é importante que quando for executar usar o `PowerShell` pois possúi mais funções do que o `cmd` padrão
+#### 💻 Como compilar?
 
- 
- 
-Alysson A.
+Use os mesmos comandos do Linux, mas recomendo usar o PowerShell (mais completo que o CMD padrão).
+```bash
+gcc -c {arquivo_funcoes}.c -o {arquivo_funcoes}.o
+gcc main.c {arquivo_funcoes}.o -lm -o main
+.\main.exe
+```
+
+
+
+
+
+
